@@ -1,0 +1,61 @@
+.movie-table-container {
+    background-color: #fff;
+    padding: 20px;
+    min-height: 100vh;
+  }
+  
+  .movie-table-header {
+    background-color: #B31312;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 24px;
+    margin: 0;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .movie-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 60px; 
+  }
+  
+  .movie-table th, .movie-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    color: black; 
+    text-align: center;
+    vertical-align: middle; 
+    height: 80px; 
+  }
+  
+  .movie-table th {
+    background-color: #f2f2f2;
+    color: black;
+  }
+  
+  .movie-table td input,
+  .movie-table td textarea {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .movie-table td button {
+    background-color: #B31312;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .movie-table td button:hover {
+    background-color: #D32F2F;
+  }
+  

@@ -1,0 +1,31 @@
+.rented-movies-container {
+    padding: 20px;
+    background-color: #141414;
+    color: white;
+  }
+  
+  .rented-movies-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .rented-movies-table th,
+  .rented-movies-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .rented-movies-table th {
+    background-color: #333;
+  }
+  
+  .rented-movies-table td {
+    background-color: #444;
+  }
+  
+  .movie-image {
+    width: 100px;
+    height: auto;
+  }

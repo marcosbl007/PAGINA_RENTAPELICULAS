@@ -1,0 +1,88 @@
+.register-container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #141414;
+}
+
+.register-box {
+    display: flex;
+    width: 1000px;
+    height: 600px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.register-left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    padding: 40px;
+}
+
+.register-right {
+    flex: 1;
+    background: url('../assets/images/FondoSignIn.jpg') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.register-right h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.register-form {
+    width: 100%;
+}
+
+.register-form h1 {
+    color: #000000;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.register-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ac9696;
+    text-align: left;
+}
+
+.register-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.register-form .button-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.register-form .button-group button {
+    width: 48%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.register-form .button-group .cancel-button {
+    background: #555;
+    color: white;
+}
+
+.register-form .button-group .confirm-button {
+    background: #B31312;
+    color: white;
+}

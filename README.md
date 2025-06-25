@@ -25,8 +25,7 @@
 - [👥 Tipos de Usuario](#-tipos-de-usuario)
 - [🛠️ Scripts Disponibles](#️-scripts-disponibles)
 - [📡 API Endpoints](#-api-endpoints)
-- [🎨 Capturas de Pantalla](#-capturas-de-pantalla)
-- [👨‍💻 Contribución](#-contribución)
+
 
 ---
 
